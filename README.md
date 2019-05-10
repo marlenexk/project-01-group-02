@@ -28,6 +28,8 @@ Load the dataset:
  - Removing Missing values 
  - Restruckurierung der Daten, Preparing the Data for further analysis 
  - Getting to know our data, how we can work with it and information we can get out of it 
+ 
+ 
 2.Descriptive Statistics and Graphical representation 
 - Summary of the data
 - Graphics variability of gene expression 

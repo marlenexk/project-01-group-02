@@ -1,34 +1,28 @@
 # project-01-group-02
 group-02-project-1-2 created by GitHub Classroom
 Load the dataset: 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 #1. Projekt-Plan/ Aufbau
   + Data clean up
    - Datenstrukturen herausfiltern die nur Skin Cancer enthalten
    - Summary und Grafische Representation
   + Identifikation der Driver Mutations
-   - driver mutations aus papern vergleichen mit unseren Datens�tzen
+   - driver mutations aus papern vergleichen mit unseren Datensätzen
    - welche besonders im Datensatz auffallen
    - Grafiken
    - Dimension Reduktion
   + Interaktionen
    - was tritt nicht zusammen auf -> SL
-   - �ber und Unterexpression zusammen -> SDL
+   - Über und Unterexpression zusammen -> SDL
    - Lokalisierung auf Chromosomen beachten -> annotation file
-   - Regression -> linearer Zusammenhang zwischen driver mutations und allen m�glichen anderen
+   - Regression -> linearer Zusammenhang zwischen driver mutations und allen möglichen anderen
   + Signifikanz
-   - �berpr�fen ob Expression der driving genes signinifikant ist    - am Ende Signifikanz des Ergebnisses �berpr�fen
-  + Ganz am Ende schauen ob noch gen�gend Daten vorhanden sind um m�nnliche und weibliche Patienten zu unterscheiden  
+   - überprüfen ob Expression der driving genes signinifikant ist    - am Ende Signifikanz des Ergebnisses überprüfen
+  + Ganz am Ende schauen ob noch genügend Daten vorhanden sind um männliche und weibliche Patienten zu unterscheiden  
    
   
-=======
->>>>>>> 95297bca0d63312c909437da46b4c36272a07664
 
-=======
-
->>>>>>> 95297bca0d63312c909437da46b4c36272a07664
 1.Data Cleaning and Overview
  - extrahieren unserer Daten aus dem Datensets 
  - Removing Missing values 
@@ -42,14 +36,14 @@ Load the dataset:
 3. Dimension reduction 
   - --> Identifikation of the Driver Genes and the secoundary driver Mutations 
  - Gruppierung der Mutationen im Wildtype
- - Wie wichtig sind die Mutationen für das Cellsurvival --> Counts of the Mutations im Vergleich mit der Ceres Datenbank 
+ - Wie wichtig sind die Mutationen fÃ¼r das Cellsurvival --> Counts of the Mutations im Vergleich mit der Ceres Datenbank 
  
 4. Statistical testing 
-- t-test : welche Secoundary Mutations hängen mit welchem 
+- t-test : welche Secoundary Mutations hÃ¤ngen mit welchem 
 
  
  - 
  
-1. Driver Genes aus der Literatur und nach den Anzahlen der Mutationen im Wildtyp --> Einteilung in Driver Mutation, secound Driver Mutation, Gene die nie ausgedrückt werden 
+1. Driver Genes aus der Literatur und nach den Anzahlen der Mutationen im Wildtyp --> Einteilung in Driver Mutation, secound Driver Mutation, Gene die nie ausgedrÃ¼ckt werden 
 2. K-means --> welche Gene zusammen gruppieren 
 3. 

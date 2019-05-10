@@ -41,9 +41,10 @@ Load the dataset:
  - Wie wichtig sind die Mutationen fÃ¼r das Cellsurvival --> Counts of the Mutations im Vergleich mit der Ceres Datenbank 
  
 4. Statistical testing 
-- t-test : welche Secoundary Mutations hÃ¤ngen mit welchem 
+- t-test : welche Secoundary Mutations hÃ¤ngen mit welchem
 
- 
+5. linear Regression
+ - 
  - 
  
 1. Driver Genes aus der Literatur und nach den Anzahlen der Mutationen im Wildtyp --> Einteilung in Driver Mutation, secound Driver Mutation, Gene die nie ausgedrÃ¼ckt werden 

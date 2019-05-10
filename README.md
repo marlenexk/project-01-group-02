@@ -2,6 +2,7 @@
 group-02-project-1-2 created by GitHub Classroom
 Load the dataset: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #1. Projekt-Plan/ Aufbau
   + Data clean up
@@ -25,6 +26,9 @@ Load the dataset:
 =======
 >>>>>>> 95297bca0d63312c909437da46b4c36272a07664
 
+=======
+
+>>>>>>> 95297bca0d63312c909437da46b4c36272a07664
 1.Data Cleaning and Overview
  - extrahieren unserer Daten aus dem Datensets 
  - Removing Missing values 

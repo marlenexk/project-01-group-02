@@ -90,3 +90,38 @@ allDepMapData$annotation[1:5,1:5]
 dim(allDepMapData$copynumber)
 colnames(allDepMapData$annotation)
 ```
+
+```{r}
+allDepMapData$annotation$Primary.Disease[1:10]
+
+allDepMapData_annotation_SkinCancer = allDepMapData$annotation[which(allDepMapData$annotation$Primary.Disease == 'Skin Cancer'),]
+allDepMapData_annotation_SkinCancer[1:5, 1:5]
+allDepMapData_annotation_SkinCancer[1:5, ]
+length(rownames(allDepMapData_annotation_SkinCancer))
+namescelllines = allDepMapData$annotation$DepMap_ID[which(allDepMapData$annotation$Primary.Disease == 'Skin Cancer')]
+
+
+```
+
+
+```{r}
+allDepMap_Expression_SkinCancer =  allDepMapData$expression[ ,which(colnames(allDepMapData$expression) %in% namescelllines)]
+```
+
+## Daten mit denen wir arbeiten werden 
+```{r, eval=FALSE}
+namescelllines = allDepMapData$annotation$DepMap_ID[which(allDepMapData$annotation$Primary.Disease == 'Skin Cancer')]
+
+allDepMap_expression_SkinCancer =  allDepMapData$expression[ ,which(colnames(allDepMapData$expression) %in% namescelllines)]
+allDepMap_mutation_SkinCancer =  allDepMapData$mutation[match(x = namescelllines, table = names(allDepMapData$mutation))]
+allDepMap_copynumber_SkinCancer =  allDepMapData$copynumber[ ,which(colnames(allDepMapData$copynumber) %in% namescelllines)]
+allDepMap_kd.ceres_SkinCancer =  allDepMapData$kd.ceres[ ,which(colnames(allDepMapData$kd.ceres) %in% namescelllines)]
+allDepMap_kd.prob_SkinCancer =  allDepMapData$kd.prob[ ,which(colnames(allDepMapData$kd.prob) %in% namescelllines)]
+allDepMap_annotation_SkinCancer =  allDepMapData$annotation[which(allDepMapData$annotation$DepMap_ID %in% namescelllines), ]
+
+save(file= "C:/Users/LeoTh/Documents/GitHub/project-01-group-02/CellCancerLines.RDS", list="allDepMap_annotation_SkinCancer", "allDepMap_copynumber_SkinCancer", "allDepMap_expression_SkinCancer", "allDepMap_kd.ceres_SkinCancer", "allDepMap_kd.prob_SkinCancer", "allDepMap_mutation_SkinCancer")
+load("C:/Users/LeoTh/Documents/GitHub/project-01-group-02/CellCancerLines.RDS")
+
+```
+
+    

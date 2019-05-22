@@ -50,3 +50,6 @@ Load the dataset:
 1. Driver Genes aus der Literatur und nach den Anzahlen der Mutationen im Wildtyp --> Einteilung in Driver Mutation, secound Driver Mutation, Gene die nie ausgedrÃ¼ckt werden 
 2. K-means --> welche Gene zusammen gruppieren 
 3. 
+
+
+dd

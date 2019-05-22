@@ -141,3 +141,12 @@ Making the data nominal:
 * allDepMap_annotation_SkinCancer$Primary.Disease = factor(allDepMap_annotation_SkinCancer$Primary.Disease)
 summary(allDepMap_annotation_SkinCancer)
 
+```{r}
+mis.val = apply(allDepMap_expression_SkinCancer, 1, function(x) {sum(is.na(x))})
+```
+
+Alle Zeilen werden angezeigt mit der Anzahl der missing values die ersten 10 Zeilen
+```{r}
+mis.val [1:10]
+```
+
